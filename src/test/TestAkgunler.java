@@ -1,4 +1,3 @@
-        //xx
 package test;
 
 import java.awt.RenderingHints;

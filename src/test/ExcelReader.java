@@ -20,7 +20,6 @@ public class ExcelReader
      */
     public static void main(String[] args) throws IOException, ParseException
     {
-        //xx
         System.out.println("local change");
         int x = RDateHelper.findDayNumberByTurkishName("Pazartesi");
         System.out.println("x:"+x);

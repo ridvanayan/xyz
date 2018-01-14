@@ -30,7 +30,6 @@ public class EtsTur {
                 "2%2C%22page%22%3A1%2C%22sortType%22%3A%22searchRank%22%7D";
         HttpsURLConnection urlConnection = null;
         try {
-            //aa
             URL url = new URL(urlLink);
             urlConnection = (HttpsURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");

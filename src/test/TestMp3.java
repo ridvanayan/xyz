@@ -1,4 +1,3 @@
-        //xx
 package test;
 
 import com.google.gson.Gson;
