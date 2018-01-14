@@ -15,4 +15,6 @@ public class NewClass
     private String x;
     
     //local
+    //abc
+    //remote
 }
