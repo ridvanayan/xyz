@@ -12,7 +12,7 @@ package test;
 public class NewClass
 {
  
-    private String x;
+    private String x1;
     
     //local
     //abc
