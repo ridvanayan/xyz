@@ -11,5 +11,6 @@ package test;
  */
 public class NewClass
 {
-    
+ 
+    private String x;
 }
