@@ -29,11 +29,7 @@ public class Test
      */
     public static void main(String[] args) throws ParseException, Exception
     {
-        String filePath = "C:\\Users\\ridvanayan\\Documents\\NetBeansProjects\\IncentiveTur\\build\\web\\WEB-INF\\frontend\\assets\\img\\dynamic\\hotel\\Salamis-Bay-Conti-Hotel\\1505853783351-Salamis-Bay-Conti-Hotel-27x98.jpg";
-        String filePathThumb;
-        filePathThumb = filePath + "_thumb." + RFileHelper.getExtension(filePath);
-        BufferedImage img = new RImageHelper(filePath).readImageByForce();
-        RFileUploadHelper.saveImgToDisk(RImageHelper.getScaledInstance(img, 100, 100, RenderingHints.VALUE_INTERPOLATION_BICUBIC, false), filePathThumb);
+        
     }
 
     private static String encrypt(String data) throws Exception
