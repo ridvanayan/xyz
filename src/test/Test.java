@@ -34,6 +34,7 @@ public class Test
         filePathThumb = filePath + "_thumb." + RFileHelper.getExtension(filePath);
         BufferedImage img = new RImageHelper(filePath).readImageByForce();
         RFileUploadHelper.saveImgToDisk(RImageHelper.getScaledInstance(img, 100, 100, RenderingHints.VALUE_INTERPOLATION_BICUBIC, false), filePathThumb);
+        System.out.println("Done!");
     }
 
     private static String encrypt(String data) throws Exception
